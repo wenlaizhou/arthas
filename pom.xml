@@ -10,9 +10,9 @@
 
     <licenses>
         <license>
-        <name>GNU GENERAL PUBLIC LICENSE Version 3</name>
-        <url>https://www.gnu.org/licenses/gpl.txt</url>
-        <distribution>repo</distribution>
+            <name>GNU GENERAL PUBLIC LICENSE Version 3</name>
+            <url>https://www.gnu.org/licenses/gpl.txt</url>
+            <distribution>repo</distribution>
         </license>
     </licenses>
 
@@ -144,7 +144,13 @@
                 <version>1.7.4</version>
                 <scope>provided</scope>
             </dependency>
-
+            <dependency>
+                <groupId>org.benf</groupId>
+                <artifactId>cfr</artifactId>
+                <version>0.132</version>
+                <scope>system</scope>
+                <systemPath>${project.basedir}/lib/org/benf/cfr/0.132/cfr-0.132.jar</systemPath>
+            </dependency>
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty-common</artifactId>
