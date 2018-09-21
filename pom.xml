@@ -16,12 +16,6 @@
         </license>
     </licenses>
 
-    <scm>
-        <connection>scm:git:git@github.com:alibaba/arthas.git</connection>
-        <developerConnection>scm:git:git@github.com:alibaba/arthas.git</developerConnection>
-        <url>https://github.com/alibaba/arthas</url>
-    </scm>
-
     <developers>
         <developer>
             <id>beiwei30</id>
