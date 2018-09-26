@@ -8,37 +8,6 @@
         <version>9</version>
     </parent>
 
-    <licenses>
-        <license>
-            <name>GNU GENERAL PUBLIC LICENSE Version 3</name>
-            <url>https://www.gnu.org/licenses/gpl.txt</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
-
-    <developers>
-        <developer>
-            <id>beiwei30</id>
-            <name>beiwei30</name>
-            <email>ian.luo@gmail.com</email>
-        </developer>
-        <developer>
-            <id>Jerrik Zhu</id>
-            <name>Jerrik Zhu</name>
-            <email>diecui1202@gmail.com</email>
-        </developer>
-        <developer>
-            <id>ralf0131</id>
-            <name>ralf0131</name>
-            <email>huxing.zhang@gmail.com</email>
-        </developer>
-        <developer>
-            <id>hengyunabc</id>
-            <name>hengyunabc</name>
-            <email>hengyunabc@gmail.com</email>
-        </developer>
-    </developers>
-
     <groupId>com.taobao.arthas</groupId>
     <artifactId>arthas-all</artifactId>
     <version>3.0.5-SNAPSHOT</version>
@@ -46,7 +15,6 @@
 
     <name>arthas-all</name>
     <description>arthas</description>
-    <url>https://github.com/alibaba/arthas</url>
 
     <modules>
         <module>spy</module>
@@ -60,8 +28,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.target>1.6</maven.compiler.target>
-        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
 
     <dependencyManagement>
